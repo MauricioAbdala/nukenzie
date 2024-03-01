@@ -1,0 +1,32 @@
+.valueBox {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  justify-content: left;
+  flex-wrap: wrap;
+  gap: 1rem;
+  width: clamp(0px, 100%, 385px);
+  padding: 1.25rem 2rem;
+  border: 1px solid rgba(0, 0, 0, 0.20);
+  border-radius: 0.25rem;
+  margin-top: 18px;
+}
+
+
+.valueBox2 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 1rem;
+  gap: 30px;
+  width: 100%;
+  width: clamp(0rem, 100%, 24.0625rem);
+  margin: -10px -30px -10px;
+}
+
+.parag {
+  font-family: var(--font-primary);
+  font-size: 12px;
+  margin-left: -15px;
+}

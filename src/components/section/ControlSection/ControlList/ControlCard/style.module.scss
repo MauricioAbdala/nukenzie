@@ -1,0 +1,26 @@
+.box {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    width: clamp(0px, 100%, 585px);
+    background: var(--color-grey-1);
+    height: 5.4375rem;
+    border-radius: 0.25rem;
+    margin-top: 1.8125rem;
+
+    &.green {
+        border-left: 4px solid var(--color-secondary);
+    }
+
+    &.grey {
+        border-left: 4px solid var(--color-grey-3)
+    }
+}
+
+.btn {
+    font-family: var(--font-primary);
+    font-size: 0.625rem;
+    background: var(--color-grey-2);
+    padding: 0.2rem 0.625rem;
+    border-radius: 2px;
+}

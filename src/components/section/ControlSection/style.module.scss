@@ -1,0 +1,21 @@
+.flexBox {
+  padding: 3rem 0;
+  display: flex;
+  gap: 2.5rem;
+  align-items: flex-start;
+  justify-content: center;
+  margin-top: 90px;
+
+  @media (max-width: 680px) {
+    flex-direction: column;
+  }
+
+  &>div:first-child {
+    width: clamp(0px, 100%, 385px);
+  }
+
+  &>div:last-child {
+    min-width: clamp(0px, 100%, 350px);
+    flex-grow: 1;
+  }
+}

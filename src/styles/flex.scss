@@ -1,0 +1,16 @@
+.flexBox {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: center;
+    align-items: center;
+    // width: 36.5625rem;
+    height: 0rem;
+    padding: 1rem;
+}
+
+.flexBoxTotal {
+    display: flex;
+    flex-direction: column;
+    width: clamp(0px, 100%, 585px);
+}

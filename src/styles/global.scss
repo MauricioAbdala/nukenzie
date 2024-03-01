@@ -1,0 +1,25 @@
+:root {
+  --font-primary: 'Nunito', sans-serif;
+
+  --color-primary-pink: #FD377E;
+  --color-primary-pink2: #E34981;
+  --color-secondary: #03B898;
+  --color-grey-4: #212529;
+  --color-grey-3: #868E96;
+  --color-grey-2: #E9ECEF;
+  --color-grey-1: #F8F9FA;
+}
+
+body {
+  background-color: black;
+
+  height: 781px;
+}
+
+main {
+  width: 100%;
+  max-width: 1500px;
+  margin: auto;
+  background: #FFF;
+  border-radius: 12px;
+}
